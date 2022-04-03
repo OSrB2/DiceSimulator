@@ -13,7 +13,7 @@ ranking = list()
 print('Values drawn')
 
 for k, v in jogo.items():
-  print(f'{k} took {v} the dice.')
+  print(f'{k} rolled a {v} on the dice.')
   sleep(1)
 
 ranking = sorted(jogo.items(), key = itemgetter(1), reverse = True)
